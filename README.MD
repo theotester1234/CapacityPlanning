@@ -33,14 +33,14 @@ In order to get this Capacity Planning started on your machine, you will need:
 
 ## Start the project
 
-- Clone/Download the [sample project](https://github.com/theoheussner/CapacityPlanning) to a selected location
+- Clone/Download the [sample project](https://github.com/theotester1234/CapacityPlanning) to a selected location
 - Open a the project with VS Code
 - If not selected, please select the main branch
 - Publish the project
 
 ## Insert Sample Data
 
-- To get a package of sample data please download [this file](https://github.com/theoheussner/CapacityPlanning/raw/main/SampleData/PackageGETINSERTS.rapidstart)
+- To get a package of sample data please download [this file](https://github.com/theotester1234/CapacityPlanning/raw/main/SampleData/PackageGETINSERTS.rapidstart)
 - In Business Central open the page ***Configuration Packages*** (German: ***Konfigurationspakete***)
 - Create a new entry
 - Give it any Code and Package Name
