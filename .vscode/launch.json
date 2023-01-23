@@ -6,7 +6,7 @@
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://KapaPlanung20",
+            "server": "http://CapaPlanning",
             "serverInstance": "BC",
             "authentication": "Windows",
             "startupObjectId": 22,
