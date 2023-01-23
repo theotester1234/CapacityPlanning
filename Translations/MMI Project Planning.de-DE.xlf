@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="MMI Project Planning.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1951565438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ADG</source>
+          <target>ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1951565438 - Field 1098192894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Agile Development Group</source>
+          <target>Agile Development Group</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN ADG - Field ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1951565438 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN ADG - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand</source>
+          <target>Bedarf</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 2002877187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting</source>
+          <target>Finanzbuchhaltung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Accounting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 1098192894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ADG</source>
+          <target>ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 3075650061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automotive</source>
+          <target>Automotive</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Automotive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <target>Bemerkung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Eintrag</target>
+          <target>[NAB: SUGGESTION]Postennr.</target>
+          <target>[NAB: SUGGESTION]Lfd. Nr.</target>
+          <target>[NAB: SUGGESTION]Zeilennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 124933732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manufacturing</source>
+          <target>Manufacturing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Manufacturing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <target>Monat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 2328870583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project</source>
+          <target>Project</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 3047591693 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project Manager Code</source>
+          <target>Projektleiter Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Project Manager Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 863923670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project No.</source>
+          <target>Projekt Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Project No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 287138481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProServ</source>
+          <target>ProServ</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field ProServ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <target>Report</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 2672704373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target>Standard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Standard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 903495105 - Field 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+          <target>[NAB: SUGGESTION]Gesamtbetrag</target>
+          <target>[NAB: SUGGESTION]Summe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Demand - Field Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 794008430 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee</source>
+          <target>Mitarbeiter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 794008430 - Field 387747209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Code</source>
+          <target>Mitarbeiter Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Employee - Field Employee Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 794008430 - Field 1480804031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Name</source>
+          <target>Mitarbeiter Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Employee - Field Employee Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2876583684 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <target>Monat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2876583684 - Field 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <target>Monat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Month - Field Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan</source>
+          <target>Plan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Field 1098192894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ADG</source>
+          <target>ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Field ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Field 2790486453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <target>Bemerkung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Field Comment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Field 2218805241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Days</source>
+          <target>Tage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Field Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Field 387747209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Code</source>
+          <target>Mitarbeiter Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Field Employee Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Eintrag</target>
+          <target>[NAB: SUGGESTION]Postennr.</target>
+          <target>[NAB: SUGGESTION]Lfd. Nr.</target>
+          <target>[NAB: SUGGESTION]Zeilennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Field 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <target>Monat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Field Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Field 863923670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project No.</source>
+          <target>Projekt Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Field Project No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3282652677 - Field 3618073952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Type Code</source>
+          <target>Arbeitstypencode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Plan - Field Work Type Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2749136183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project</source>
+          <target>Project</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2749136183 - Field 904306078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project Name</source>
+          <target>Projektname</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Project - Field Project Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2749136183 - Field 863923670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project No.</source>
+          <target>Projekt Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Project - Field Project No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 311630419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Target</source>
+          <target>Soll</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Target - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 311630419 - Field 2218805241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Days</source>
+          <target>Tage</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Target - Field Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 311630419 - Field 387747209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Code</source>
+          <target>Mitarbeiter Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Target - Field Employee Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 311630419 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Eintrag</target>
+          <target>[NAB: SUGGESTION]Postennr.</target>
+          <target>[NAB: SUGGESTION]Lfd. Nr.</target>
+          <target>[NAB: SUGGESTION]Zeilennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Target - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 311630419 - Field 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <target>Monat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table BET PLAN Target - Field Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3721573099 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ADGs</source>
+          <target>ADGs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN ADGs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3721573099 - Control 1098192894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ADG field.</source>
+          <target>Gibt den Wert von "ADG" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN ADGs - Control ADG - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3721573099 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target>Gibt den Wert von "Beschreibung" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN ADGs - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand Area Filter Dialog</source>
+          <target>Bedarf-Bereich Filter Dialog</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 2002877187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to show Accounting on the Demand-Area Page.</source>
+          <target>Gibt an Finanzbuchhaltung auf der Bedarf-Bereich Seite anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Accounting - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 2002877187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting</source>
+          <target>Finanzbuchhaltung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Accounting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 3075650061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to show Automotive on the Demand-Area Page.</source>
+          <target>Gibt an Automotive auf der Bedarf-Bereich Seite anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Automotive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 3075650061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automotive</source>
+          <target>Automotive</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Automotive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 124933732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to show Manufacturing on the Demand-Area Page.</source>
+          <target>Gibt an Manufacturing auf der Bedarf-Bereich Seite anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Manufacturing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 124933732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manufacturing</source>
+          <target>Manufacturing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Manufacturing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 2328870583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to show Project on the Demand-Area Page.</source>
+          <target>Gibt an Project auf der Bedarf-Bereich Seite anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Project - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 2328870583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project</source>
+          <target>Project</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 287138481 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to show ProServ on the Demand-Area Page.</source>
+          <target>Gibt an ProServ auf der Bedarf-Bereich Seite anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control ProServ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 287138481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProServ</source>
+          <target>ProServ</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control ProServ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 3375155882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to show Report on the Demand-Area Page.</source>
+          <target>Gibt an Report auf der Bedarf-Bereich Seite anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Report - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <target>Report</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 2672704373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to show Standard on the Demand-Area Page.</source>
+          <target>Gibt an Standard auf der Bedarf-Bereich Seite anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Standard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1810710001 - Control 2672704373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target>Standard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Dem.-Area Filt. Dial. - Control Standard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand-ADG</source>
+          <target>Bedarf-ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Control 1098192894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Project No.</source>
+          <target>Gibt die Projetkt Nr. an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Control ADG - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Control 1098192894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project No.</source>
+          <target>Projekt Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Control ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Control 3955332963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Control Col1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Control 1573455518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Control Col2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Control 935758901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Control Col3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Control 2841745280 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Grand Total for the Project in the current year.</source>
+          <target>Gibt die Gesamtsumme für das Projekt im aktuellen Jahr an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Control Grand Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Control 2841745280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand Total</source>
+          <target>Gesamtsumme</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Control Grand Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Control 2166945456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <target>Zusammenfassung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Control Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Action 3206779141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Action Left - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Action 3206779141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Left</source>
+          <target>Nach Links</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Action Left - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Action 1644645076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Action Right - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 228347916 - Action 1644645076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Right</source>
+          <target>Nach Rechts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG - Action Right - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand-ADG FactBox</source>
+          <target>Bedarf-ADG FactBox</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 1920543187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 3715159683 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 57889004 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 695585621 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 3833633038 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 3195936421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 7453336 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 3664724015 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 1282846570 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 645149953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 3364845444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 2727148827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Month9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 245426702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1059911775 - Control 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-ADG FactBox - Control Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Views,Create own Filter</source>
+          <target>Neu,Prozess,Report,Sichten,Eigenen Filter erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand-Area</source>
+          <target>Bedarf-Bereich</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 2002877187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total of Accounting.</source>
+          <target>Gibt die Gesamtsumme von Finanzbuchhaltung an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Accounting - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 2002877187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting</source>
+          <target>Finanzbuchhaltung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Accounting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 3075650061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total of Automotive.</source>
+          <target>Gibt die Gesamtsumme von Automotive an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Automotive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 3075650061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automotive</source>
+          <target>Automotive</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Automotive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 124933732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total of Manufacturing.</source>
+          <target>Gibt die Gesamtsumme von Manufacturing an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Manufacturing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 124933732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manufacturing</source>
+          <target>Manufacturing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Manufacturing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 3465500804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Month</source>
+          <target>Gibt den Monat an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Month - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <target>Monat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 2328870583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total of Project.</source>
+          <target>Gibt die Gesamtsumme von Project an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Project - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 2328870583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project</source>
+          <target>Project</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 287138481 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total of ProServ.</source>
+          <target>Gibt die Gesamtsumme von ProServ an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control ProServ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 287138481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProServ</source>
+          <target>ProServ</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control ProServ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 3375155882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total of Report.</source>
+          <target>Gibt die Gesamtsumme von Report an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Report - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 3375155882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <target>Report</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 2672704373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total of Standard.</source>
+          <target>Gibt die Gesamtsumme von Standard an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Standard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 2672704373 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target>Standard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Standard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 245426702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Control 2166945456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <target>Zusammenfassung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Control Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 1535447593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create own View</source>
+          <target>Eigene Sicht erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Create own View - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 322159870 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create an own View to show only selected fields.</source>
+          <target>Erstellen einer eigenen Sicht um nur ausgewählte Felder anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Create own Filter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 322159870 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create own View</source>
+          <target>Eigene Sicht erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Create own Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 2487389027 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View areas</source>
+          <target>Bereiche anzeigen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action View areas - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 3291008334 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to only show Accounting area.</source>
+          <target>Gibt an nur den Bereich Finanzbuchhaltung anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Accounting - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 3291008334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting</source>
+          <target>Finanzbuchhaltung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Accounting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 2309888678 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to show all areas.</source>
+          <target>Gibt an alle Berecihe anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show All - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 2309888678 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All</source>
+          <target>Alle</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show All - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 1337659012 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to only show Automotive area.</source>
+          <target>Gibt an nur den Bereich Automotive anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Automotive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 1337659012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automotive</source>
+          <target>Automotive</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Automotive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 2164247573 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to only show Manufacturing area.</source>
+          <target>Gibt an nur den Bereich Manufacturing anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Manufacturing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 2164247573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manufacturing</source>
+          <target>Manufacturing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Manufacturing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 43829930 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to only show Project area.</source>
+          <target>Gibt an nur den Bereich Project anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Project - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 43829930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project</source>
+          <target>Project</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Project - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 776704928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to only show ProServ area.</source>
+          <target>Gibt an nur den Bereich ProServ anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show ProServ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 776704928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProServ</source>
+          <target>ProServ</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show ProServ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 3457437023 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to only show Report area.</source>
+          <target>Gibt an nur den Bereich Report anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Report - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 3457437023 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <target>Report</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 4235472012 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies to only show Standard area.</source>
+          <target>Gibt an nur den Bereich Standard anzuzeigen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Standard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4234721863 - Action 4235472012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard</source>
+          <target>Standard</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area - Action Show Standard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand Area FactBox</source>
+          <target>Bedarf-Bereich FactBox</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <target>Zusammenfassung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2628467559 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Accounting-Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme für den Bereich Finanzbuchhaltung aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Accounting Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2628467559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting-Total</source>
+          <target>Finanzbuchhaltung Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Accounting Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2716767265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Automotive-Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme für den Bereich Automotive aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Automotive Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2716767265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automotive-Total</source>
+          <target>Automotive Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Automotive Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2128960168 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Manufacturing-Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme für den Bereich Manufacturing aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Manufacturing Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2128960168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manufacturing-Total</source>
+          <target>Manufacturing Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Manufacturing Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2912375603 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Project-Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme für den Bereich Project aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Project Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 2912375603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Project-Total</source>
+          <target>Project Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Project Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 184423805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ProServ-Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme für den Bereich ProServe aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control ProServ Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 184423805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ProServ-Total</source>
+          <target>ProServ Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control ProServ Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 23067494 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Report-Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme für den Bereich Report aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Report Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 23067494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report-Total</source>
+          <target>Report Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Report Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 4281803449 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Standard-Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme für den Bereich Standard aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Standard Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 4281803449 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Standard-Total</source>
+          <target>Standard Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Standard Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 3620536578 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Total for all Projects.</source>
+          <target>Gibt die Gesamtsumme aller Projekte an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Total Summary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1979542244 - Control 3620536578 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Area FactBox - Control Total Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand-Target</source>
+          <target>Bedarf-Plan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Control 3465500804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Month field.</source>
+          <target>Gibt den Wert von "Monat" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Control Month - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Control 3465500804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <target>Monat</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Control Month - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Control 77731388 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Capacity field.</source>
+          <target>Gibt den Wert von "Restkapazität" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Control Remaining Capacity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Control 77731388 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Capacity</source>
+          <target>Restkapazität</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Control Remaining Capacity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Control 3317704031 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Demand field.</source>
+          <target>Gibt den Wert von "Gesamtbedarf" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Control Total Demand - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Control 3317704031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Demand</source>
+          <target>Gesamtbedarf</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Control Total Demand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Control 379632437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Target field.</source>
+          <target>Gibt den Wert von "Gesamt-Plan" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Control Total Target - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2924051445 - Control 379632437 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Target</source>
+          <target>Gesamt-Plan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demand-Target - Control Total Target - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demands</source>
+          <target>Bedarfe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 2002877187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Accounting field.</source>
+          <target>Gibt den Wert von "Accounting" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Accounting - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 1098192894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ADG field.</source>
+          <target>Gibt den Wert von "ADG" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control ADG - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 3075650061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Automotive field.</source>
+          <target>Gibt den Wert von "Automotive" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Automotive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Comment field.</source>
+          <target>Gibt den Wert von "Bemerkung" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <target>Gibt den Wert von "Eintrag" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 124933732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Manufacturing field.</source>
+          <target>Gibt den Wert von "Manufacturing" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Manufacturing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 3465500804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Month field.</source>
+          <target>Gibt den Wert von "Monat" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Month - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 2328870583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Project field.</source>
+          <target>Gibt den Wert von "Project" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Project - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 3047591693 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Project Manager Code field.</source>
+          <target>Gibt den Wert von "Projektleiter Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Project Manager Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 863923670 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Project No. field.</source>
+          <target>Gibt den Wert von "Projekt Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Project No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 287138481 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ProServ field.</source>
+          <target>Gibt den Wert von "ProServ" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control ProServ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 3375155882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Report field.</source>
+          <target>Gibt den Wert von "Report" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Report - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 2672704373 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Standard field.</source>
+          <target>Gibt den Wert von "Standard" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Standard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3645613976 - Control 245426702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total field.</source>
+          <target>Gibt den Wert von "Gesamt" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Demands - Control Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2674783867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employees</source>
+          <target>Mitarbeiter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Employees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2674783867 - Control 387747209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Employee Code field.</source>
+          <target>Gibt den Wert von "Mitarbeiter Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Employees - Control Employee Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2674783867 - Control 1480804031 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Employee Name field.</source>
+          <target>Gibt den Wert von "Name" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Employees - Control Employee Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan-ADG</source>
+          <target>Plan-ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Control 1098192894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ADG field.</source>
+          <target>Gibt den Wert von "ADG" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Control ADG - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Control 3955332963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Control Col1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Control 1573455518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Control Col2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Control 935758901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Control Col3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Control 2841745280 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Grand Total for the Project in the current year.</source>
+          <target>Gibt die Gesamtsumme für das Projekt im aktuellen Jahr an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Control Grand Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Control 2841745280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand Total</source>
+          <target>Gesamtsumme</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Control Grand Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Action 3206779141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Action Left - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Action 3206779141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Left</source>
+          <target>Nach Links</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Action Left - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Action 1644645076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Action Right - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1885196552 - Action 1644645076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Right</source>
+          <target>Nach Rechts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-ADG - Action Right - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan-Employee</source>
+          <target>Plan-Mitarbeiter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Control 3955332963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Control Col1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Control 1573455518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Control Col2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Control 935758901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Control Col3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Control 387747209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Employee Code field.</source>
+          <target>Gibt den Wert von "Mitarbeiter Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Control Employee Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Control 2841745280 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Grand Total for the Employee in the current year.</source>
+          <target>Gibt die Gesamtsumme für den Mitarbeiter im aktuellen Jahr an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Control Grand Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Control 2841745280 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grand Total</source>
+          <target>Gesamtsumme</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Control Grand Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Action 3206779141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Action Left - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Action 3206779141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Left</source>
+          <target>Nach Links</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Action Left - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Action 1644645076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Action Right - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1221769832 - Action 1644645076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Right</source>
+          <target>Nach Rechts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee - Action Right - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3454992069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan-ADG</source>
+          <target>Plan-ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee-ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3454992069 - Control 1098192894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ADG field.</source>
+          <target>Gibt den Wert von "ADG" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee-ADG - Control ADG - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3454992069 - Control 2218805241 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Days field.</source>
+          <target>Gibt den Wert von "Tage" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee-ADG - Control Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3454992069 - Control 387747209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Employee Code field.</source>
+          <target>Gibt den Wert von "Mitarbeiter Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee-ADG - Control Employee Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3454992069 - Control 3465500804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Month field.</source>
+          <target>Gibt den Wert von "Monat" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plan-Employee-ADG - Control Month - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plans</source>
+          <target>Pläne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Control 1098192894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ADG field.</source>
+          <target>Gibt den Wert von "ADG" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Control ADG - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Comment field.</source>
+          <target>Gibt den Wert von "Bemerkung" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Control 2218805241 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Days field.</source>
+          <target>Gibt den Wert von "Tage" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Control Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Control 387747209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Employee Code field.</source>
+          <target>Gibt den Wert von "Mitarbeiter Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Control Employee Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <target>Gibt den Wert von "Eintrag" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Control 3465500804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Month field.</source>
+          <target>Gibt den Wert von "Monat" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Control Month - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Control 863923670 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Project No. field.</source>
+          <target>Gibt den Wert von "Projekt Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Control Project No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3938381820 - Control 3618073952 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Work Type Code field.</source>
+          <target>Gibt den Wert von "Arbeitstypencode" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Plans - Control Work Type Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1706762690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Projects</source>
+          <target>Projekte</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Projects - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1706762690 - Control 904306078 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Project Name field.</source>
+          <target>Gibt den Wert von "Projektname" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Projects - Control Project Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1706762690 - Control 863923670 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Project No. field.</source>
+          <target>Gibt den Wert von "Projekt Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Projects - Control Project No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rem. Capacity FactBox</source>
+          <target>Restkapazität FactBox</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 1920543187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 3715159683 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 57889004 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 695585621 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 3833633038 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 3195936421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 7453336 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 3664724015 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 1282846570 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 645149953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 3364845444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 2727148827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Month9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 245426702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 735117591 - Control 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Capacity FactBox - Control Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Demand FactBox</source>
+          <target>Restbedarf FactBox</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 1920543187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 3715159683 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month10 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 57889004 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month11 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 695585621 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month12 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 3833633038 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 3195936421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 7453336 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month4 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 3664724015 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 1282846570 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month6 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 645149953 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month7 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 3364845444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month8 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 2727148827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Month9 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 245426702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3737102186 - Control 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Rem. Demand FactBox - Control Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Capacity</source>
+          <target>Restkapazität</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Control 3955332963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Control Col1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Control 1573455518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Control Col2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Control 935758901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Control Col3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Control 387747209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Employee Code field.</source>
+          <target>Gibt den Wert von "Mitarbeiter Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Control Employee Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Control 245426702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total field.</source>
+          <target>Gibt den Wert von "Gesamt" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Control Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Control 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Control Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Control 2166945456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <target>Zusammenfassung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Control Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Action 3206779141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Action Left - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Action 3206779141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Left</source>
+          <target>Nach Links</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Action Left - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Action 1644645076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Action Right - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 559710396 - Action 1644645076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Right</source>
+          <target>Nach Rechts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Capacity - Action Right - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Demand</source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Control 1098192894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ADG field.</source>
+          <target>Gibt den Wert von "ADG" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Control ADG - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Control 1098192894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ADG</source>
+          <target>ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Control ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Control 3955332963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Control Col1 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Control 1573455518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Control Col2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Control 935758901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Control Col3 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Control 245426702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total field.</source>
+          <target>Gibt den Wert von "Gesamt" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Control Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Control 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Control Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Control 2166945456 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Summary</source>
+          <target>Zusammenfassung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Control Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Action 3206779141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Action Left - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Action 3206779141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Left</source>
+          <target>Nach Links</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Action Left - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Action 1644645076 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <target></target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Action Right - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3908199853 - Action 1644645076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scroll Right</source>
+          <target>Nach Rechts</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Remaining Demand - Action Right - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Capacity Planning Role Center</source>
+          <target>Kapazitätsplanung Rollencenter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 3487568930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blue</source>
+          <target>Blau</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Blue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 1237738114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand-Area</source>
+          <target>Bedarf-Bereich</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Demand-Area - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 1483788445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand-ADG</source>
+          <target>Bedarf-ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Demand-PR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 3975070937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan-ADG</source>
+          <target>Plan-ADG</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Plan-ADG - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 3701307745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plan-Employee</source>
+          <target>Plan-Mitarbeiter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Plan-Employee - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 2899644277 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Green</source>
+          <target>Grün</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Green - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 61579564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demand-Target</source>
+          <target>Bedarf-Plan</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Demand-Target - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 1546520701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Capacity</source>
+          <target>Restkapazität</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Remaining Capacity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 1070575004 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Demand</source>
+          <target>Restbedarf</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Remaining Demand - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 3750225965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Red</source>
+          <target>Rot</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Red - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 2670974657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demands</source>
+          <target>Bedarfe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Demands - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 2053643701 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Plans</source>
+          <target>Pläne</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Plans - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 2012424656 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Yellow</source>
+          <target>Gelb</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Yellow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 1237739790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ADGs</source>
+          <target>ADGs</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan ADGs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 298779622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employees</source>
+          <target>Mitarbeiter</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Employees - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 927205417 - Action 2442083299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Targets</source>
+          <target>Soll</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Role Center - Action Plan Targets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3071954942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Targets</source>
+          <target>Soll</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Targets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3071954942 - Control 2218805241 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Days field.</source>
+          <target>Gibt den Wert von "Tage" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Targets - Control Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3071954942 - Control 387747209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Employee Code field.</source>
+          <target>Gibt den Wert von "Mitarbeiter Nr." an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Targets - Control Employee Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3071954942 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry No. field.</source>
+          <target>Gibt den Wert von "Eintrag" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Targets - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3071954942 - Control 3465500804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Month field.</source>
+          <target>Gibt den Wert von "Monat" an.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page BET PLAN Targets - Control Month - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Profile 1292284781 - Property 4111922599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Capacity Planning for Dynamics 365 Business Central</source>
+          <target>Kapazitätsplanung für Dynamics 365 Business Central</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Profile BET PLAN Administrator - Property ProfileDescription</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
