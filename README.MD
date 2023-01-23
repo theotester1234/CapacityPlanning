@@ -18,7 +18,6 @@ In order to get this Capacity Planning started on your machine, you will need:
     Import-Module BCContainerHelper
 
     New-BcContainer `
-    New-BcContainer `
         -isolation process `
         -accept_eula `
         -containerName CapaPlanning `
