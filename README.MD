@@ -33,7 +33,7 @@ In order to get this Capacity Planning started on your machine, you will need:
 
 ## Start the project
 
-- Clone/Download the [sample project](https://dev.azure.com/TheoHeussner/Kapazit%C3%A4tsplanung) to a selected location
+- Clone/Download the [sample project](https://github.com/theoheussner/CapacityPlanning) to a selected location
 - Open a the project with VS Code
 - If not selected, please select the main branch
 - Publish the project
