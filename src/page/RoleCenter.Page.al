@@ -11,6 +11,10 @@ page 50116 "BET PLAN Role Center"
             {
                 ApplicationArea = All;
             }
+            part("Your Projects"; "BET PLAN Employee Projects")
+            {
+                ApplicationArea = All;
+            }
         }
     }
 
