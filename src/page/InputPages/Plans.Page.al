@@ -5,6 +5,7 @@ page 50101 "BET PLAN Plans"
     SourceTable = "BET PLAN Plan";
     UsageCategory = Lists;
     ApplicationArea = All;
+    RefreshOnActivate = true;
 
     layout
     {

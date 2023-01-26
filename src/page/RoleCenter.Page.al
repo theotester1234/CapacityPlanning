@@ -7,7 +7,7 @@ page 50116 "BET PLAN Role Center"
     {
         area(RoleCenter)
         {
-            part(Control5042651; "Headline RC Administrator")
+            part(Headline; "BET PLAN Headline")
             {
                 ApplicationArea = All;
             }

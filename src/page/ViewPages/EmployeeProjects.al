@@ -1,6 +1,6 @@
 page 50120 "BET PLAN Employee Projects"
 {
-    Caption = ' Employee Projects';
+    Caption = 'Employee Projects';
     PageType = CardPart;
     SourceTable = "BET PLAN Plan";
 
@@ -11,94 +11,121 @@ page 50120 "BET PLAN Employee Projects"
             cuegroup("This month")
             {
                 Caption = 'This month';
-                field(Project1; GetProjectTarget(1))
+                field(Project1; GetProjectTarget(Options::Current, 1))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(1, false);
+                    CaptionClass = '3,' + GetProject(Options::Current, 1);
                     Visible = IsVisibleProjectCurrentMonth1;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Current, 1);
+                    end;
                 }
-                field(Project2; GetProjectTarget(2)) //TODO wird ausgaführ unabhängig von field davor, heißt abfrage machen auf record 
+                field(Project2; GetProjectTarget(Options::Current, 2))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(2, false);
+                    CaptionClass = '3,' + GetProject(Options::Current, 2);
                     Visible = IsVisibleProjectCurrentMonth2;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Current, 2);
+                    end;
                 }
-                field(Project3; GetProjectTarget(3))
+                field(Project3; GetProjectTarget(Options::Current, 3))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(3, false);
+                    CaptionClass = '3,' + GetProject(Options::Current, 3);
                     Visible = IsVisibleProjectCurrentMonth3;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Current, 3);
+                    end;
                 }
-                field(Project4; GetProjectTarget(4))
+                field(Project4; GetProjectTarget(Options::Current, 4))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(4, false);
+                    CaptionClass = '3,' + GetProject(Options::Current, 4);
                     Visible = IsVisibleProjectCurrentMonth4;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Current, 4);
+                    end;
                 }
-                field(Project5; GetProjectTarget(5))
+                field(Project5; GetProjectTarget(Options::Current, 5))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(5, false);
+                    CaptionClass = '3,' + GetProject(Options::Current, 5);
                     Visible = IsVisibleProjectCurrentMonth5;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Current, 5);
+                    end;
                 }
             }
             cuegroup("Next month")
             {
-                Caption = 'This month';
-                field(ProjectNext1; GetProjectTarget(1))//TODO nextmonth version
+                Caption = 'Next month';
+                field(ProjectNext1; GetProjectTarget(Options::Next, 1))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(1, true);//TODO nextmonth version
+                    CaptionClass = '3,' + GetProject(Options::Next, 1);
                     Visible = IsVisibleProjectNextMonth1;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Next, 1);
+                    end;
                 }
-                field(ProjectNext2; GetProjectTarget(2))
+                field(ProjectNext2; GetProjectTarget(Options::Next, 2))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(2, true);
+                    CaptionClass = '3,' + GetProject(Options::Next, 2);
                     Visible = IsVisibleProjectNextMonth2;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Next, 2);
+                    end;
                 }
-                field(ProjectNext3; GetProjectTarget(3))
+                field(ProjectNext3; GetProjectTarget(Options::Next, 3))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(3, true);
+                    CaptionClass = '3,' + GetProject(Options::Next, 3);
                     Visible = IsVisibleProjectNextMonth3;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Next, 3);
+                    end;
                 }
-                field(ProjectNext4; GetProjectTarget(4))
+                field(ProjectNext4; GetProjectTarget(Options::Next, 4))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(4, true);
+                    CaptionClass = '3,' + GetProject(Options::Next, 4);
                     Visible = IsVisibleProjectNextMonth4;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Next, 4);
+                    end;
                 }
-                field(ProjectNext5; GetProjectTarget(5))
+                field(ProjectNext5; GetProjectTarget(Options::Next, 5))
                 {
                     ApplicationArea = All;
-                    DrillDownPageId = "BET PLAN Targets";
-                    CaptionClass = '3,' + GetProject(5, true);
+                    CaptionClass = '3,' + GetProject(Options::Next, 5);
                     Visible = IsVisibleProjectNextMonth5;
+                    trigger OnDrillDown()
+                    begin
+                        OpenPlan(Options::Next, 5);
+                    end;
                 }
             }
         }
     }
     trigger OnOpenPage()
     begin
-        IsVisibleProjectCurrentMonth1 := false;
-        IsVisibleProjectCurrentMonth2 := false;
-        IsVisibleProjectCurrentMonth3 := false;
-        IsVisibleProjectCurrentMonth4 := false;
-        IsVisibleProjectCurrentMonth5 := false;
-        GetEmployeeProjects();
+        GetVisibility();
     end;
 
     var
+        Filter: Codeunit "BET PLAN Filter";
+        Options: Option Current,Next;
         IsVisibleProjectCurrentMonth: array[5] of Boolean;
         IsVisibleProjectCurrentMonth1, IsVisibleProjectCurrentMonth2, IsVisibleProjectCurrentMonth3, IsVisibleProjectCurrentMonth4, IsVisibleProjectCurrentMonth5 : Boolean;
 
@@ -107,100 +134,116 @@ page 50120 "BET PLAN Employee Projects"
         EmployeePlansCurrentMonth: array[10] of Text;
         EmployeePlansNextMonth: array[10] of Text;
 
-    local procedure GetEmployeeProjects()
-        i: Integer;
+    local procedure GetVisibility()
+    var
+        i, j : Integer;
     begin
         i := 1;
-        if ExistsPlanCurrentMonth() then begin
+        j := 1;
+        if ExistsPlan(Options::Current) then
             if Rec.FindSet() then
                 repeat
-                    EmployeePlansCurrentMonth[i] := Rec.ADG;
                     IsVisibleProjectCurrentMonth[i] := true;
                     i += 1;
-                until Rec.Next() = 0;
-            IsVisibleProjectCurrentMonth1 := IsVisibleProjectCurrentMonth[1];
-            IsVisibleProjectCurrentMonth2 := IsVisibleProjectCurrentMonth[2];
-            IsVisibleProjectCurrentMonth3 := IsVisibleProjectCurrentMonth[3];
-            IsVisibleProjectCurrentMonth4 := IsVisibleProjectCurrentMonth[4];
-            IsVisibleProjectCurrentMonth5 := IsVisibleProjectCurrentMonth[5];
-        end;
-        if ExistsPlanNextMonth() then begin
+                until (Rec.Next() = 0) or (i > 5);
+        if ExistsPlan(Options::Next) then
             if Rec.FindSet() then
                 repeat
-                    EmployeePlansNextMonth[i] := Rec.ADG;
-                    IsVisibleProjectNextMonth[i] := true;
-                    i += 1;
-                until Rec.Next() = 0;
-            IsVisibleProjectNextMonth1 := IsVisibleProjectNextMonth[1];
-            IsVisibleProjectNextMonth2 := IsVisibleProjectNextMonth[2];
-            IsVisibleProjectNextMonth3 := IsVisibleProjectNextMonth[3];
-            IsVisibleProjectNextMonth4 := IsVisibleProjectNextMonth[4];
-            IsVisibleProjectNextMonth5 := IsVisibleProjectNextMonth[5];
-        end;
+                    IsVisibleProjectNextMonth[j] := true;
+                    j += 1;
+                until (Rec.Next() = 0) or (j > 5);
+        IsVisibleProjectCurrentMonth1 := IsVisibleProjectCurrentMonth[1];
+        IsVisibleProjectCurrentMonth2 := IsVisibleProjectCurrentMonth[2];
+        IsVisibleProjectCurrentMonth3 := IsVisibleProjectCurrentMonth[3];
+        IsVisibleProjectCurrentMonth4 := IsVisibleProjectCurrentMonth[4];
+        IsVisibleProjectCurrentMonth5 := IsVisibleProjectCurrentMonth[5];
+        IsVisibleProjectNextMonth1 := IsVisibleProjectNextMonth[1];
+        IsVisibleProjectNextMonth2 := IsVisibleProjectNextMonth[2];
+        IsVisibleProjectNextMonth3 := IsVisibleProjectNextMonth[3];
+        IsVisibleProjectNextMonth4 := IsVisibleProjectNextMonth[4];
+        IsVisibleProjectNextMonth5 := IsVisibleProjectNextMonth[5];
     end;
 
-    local procedure GetProject(FieldNo: Integer; isNextMonth: Boolean): Text //TODO nextmonth version
-    begin
-        if ExistsPlanCurrentMonth() then
-            exit(EmployeePlansCurrentMonth[FieldNo])
-        else
-            exit('');
-    end;
-
-    local procedure GetProjectTarget(FieldNo: Integer): Decimal //TODO nextmonth version
+    local procedure GetProjectTarget(Option: Option; FieldNo: Integer): Decimal
     var
-        User: Record User;
-        CurrentUser: Code[20];
         Days: Decimal;
+        ADG: Code[20];
     begin
-        if ArrayLen(EmployeePlansCurrentMonth) <> 0 then begin
-            Rec.SetRange(ADG, EmployeePlansCurrentMonth[FieldNo]);
+        if ExistsPlan(Option) then begin
+            GetEmployeeProjects(Option);
+            SetFilterADG(Option, FieldNo);
+            ADG := GetProject(Option, FieldNo);
+            Rec.SetRange(ADG, ADG);
             if Rec.FindFirst() then
                 Days := Rec.Days;
             exit(Days);
         end;
     end;
 
-    local procedure ExistsPlanCurrentMonth(): Boolean
-    var
-        User: Record User;
-        CurrentUser: Code[20];
-        CurrentMonth: Date;
-    begin
-        User.Get(Database.UserSecurityId());
-        CurrentUser := Format(User."Full Name", 4);
-        Rec.Reset();
-        Rec.SetRange("Employee Code", CurrentUser);
 
-        CurrentMonth := DMY2Date(1, Date2DMY(Today, 2), Date2DMY(Today, 3));
-        Rec.SetRange(Month, CurrentMonth, CalcDate('<CM>', CurrentMonth));
+    local procedure GetEmployeeProjects(Option: Option)
+    var
+        i: Integer;
+    begin
+        i := 1;
+        if Rec.FindSet() then begin
+            repeat
+                case Option of
+                    Options::Current:
+                        begin
+                            EmployeePlansCurrentMonth[i] := Rec.ADG;
+                        end;
+                    Options::Next:
+                        begin
+                            EmployeePlansNextMonth[i] := Rec.ADG;
+                        end;
+                end;
+                i += 1;
+            until (Rec.Next() = 0) or (i > 5);
+        end;
+    end;
+
+    local procedure GetProject(Option: Option; FieldNo: Integer): Text
+    begin
+        case Option of
+            Options::Current:
+                exit(EmployeePlansCurrentMonth[FieldNo]);
+            Options::Next:
+                exit(EmployeePlansNextMonth[FieldNo]);
+        end;
+    end;
+
+    local procedure ExistsPlan(Option: Option): Boolean
+    begin
+        Filter.SetFilterUser(Rec);
+        Filter.SetFilterMonth(Rec, Option);
         if Rec.FindSet() then
             exit(true)
         else
             exit(false);
     end;
 
-    local procedure ExistsPlanNextMonth(): Boolean
-    var
-        User: Record User;
-        CurrentUser: Code[20];
-        NextMonth: Date;
-        Month: Integer;
-    begin
-        User.Get(Database.UserSecurityId());
-        CurrentUser := Format(User."Full Name", 4);
-        Rec.Reset();
-        Rec.SetRange("Employee Code", CurrentUser);
 
-        if Date2DMY(Today, 2) = 12 then
-            Month := 12
-        else
-            Month := Date2DMY(Today, 2) + 1;
-        NextMonth := DMY2Date(1, Month, Date2DMY(Today, 3));
-        Rec.SetRange(Month, NextMonth, CalcDate('<CM>', NextMonth));
-        if Rec.FindSet() then
-            exit(true)
-        else
-            exit(false);
+
+    local procedure SetFilterADG(Option: Option; FieldNo: Integer)
+    begin
+        case Option of
+            Options::Current:
+                Rec.SetRange(ADG, EmployeePlansCurrentMonth[FieldNo]);
+            Options::Next:
+                Rec.SetRange(ADG, EmployeePlansNextMonth[FieldNo]);
+        end;
+    end;
+
+    local procedure OpenPlan(Option: Option; FieldNo: Integer)
+    var
+        Plans: Page "BET PLAN Plans";
+    begin
+        Filter.SetFilterUser(Rec);
+        Filter.SetFilterMonth(Rec, Options::Current);
+        SetFilterADG(Options::Current, FieldNo);
+        Plans.SetTableView(Rec);
+        Plans.Editable(false);
+        Plans.RunModal();
     end;
 }
