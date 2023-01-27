@@ -69,7 +69,7 @@ page 50107 "BET PLAN Demand-Area"
                     ToolTip = 'Specifies the Total of ProServ.';
                     Visible = IsVisibleProServ;
                 }
-                field("Total"; GetDemand(Areas::Total))
+                field("Total"; GetDemand(Areas::Total)) //TODO based on current visible columns
                 {
                     Caption = 'Total';
                     ApplicationArea = All;
@@ -309,9 +309,9 @@ page 50107 "BET PLAN Demand-Area"
         SumOfDemands: Decimal;
     begin
         if CopyStr(Rec.Month, 1, 1) = '0' then
-            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 2, 1)))
+            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 4, 1)))
         else
-            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 1, 2)));
+            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 4, 2)));
         StartCurrentMonth := DMY2Date(1, CurrentMonth, Date2DMY(Today, 3)); // neues Datum erstellen für gegeben Monat aus Spalte, 01.Monat.aktuelles Jahr
         Demand.SetRange(Month, StartCurrentMonth, CalcDate('<CM>', StartCurrentMonth)); //filter nach Monat in Demand table //calcdate <CM> gibt letzten tag des monats aus 
 
@@ -333,9 +333,29 @@ page 50107 "BET PLAN Demand-Area"
                     Areas::ProServ:
                         SumOfDemands += Demand.ProServ;
                     Areas::Total:
-                        SumOfDemands += Demand.Total;
+                        SumOfDemands += GetTotal(Demand);
                 end;
             until Demand.Next() = 0;
         exit(SumOfDemands);
     end;
+
+    local procedure GetTotal(Demand: Record "BET PLAN Demand") SumOfDemands: Decimal
+    begin
+        if IsVisibleAccounting then
+            SumOfDemands += Demand.Accounting;
+        if IsVisibleReport then
+            SumOfDemands += Demand.Report;
+        if IsVisibleStandard then
+            SumOfDemands += Demand.Standard;
+        if IsVisibleAutomotive then
+            SumOfDemands += Demand.Automotive;
+        if IsVisibleManufacturing then
+            SumOfDemands += Demand.Manufacturing;
+        if IsVisibleProject then
+            SumOfDemands += Demand.Project;
+        if IsVisibleProServ then
+            SumOfDemands += Demand.ProServ;
+        exit(SumOfDemands)
+    end;
+
 }
