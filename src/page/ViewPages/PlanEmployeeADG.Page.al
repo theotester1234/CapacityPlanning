@@ -1,6 +1,6 @@
 page 50111 "BET PLAN Plan-Employee-ADG"
 {
-    Caption = 'Plan-ADG';
+    Caption = 'Plan-Employee-ADG';
     PageType = List;
     SourceTable = "BET PLAN Plan";
     Editable = false;

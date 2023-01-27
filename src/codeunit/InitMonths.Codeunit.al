@@ -14,7 +14,7 @@ codeunit 50100 "BET PLAN Init Months"
         StartMonth := Date2DMY(Today, 2); // get the current month as Integer
         for i := StartMonth to 12 do begin // for remaining months of the current year
             Month.Init();
-            MonthAsCode.GetMonthAsCode(StartMonth);
+            Month.Month := MonthAsCode.GetMonthAsCode(i);
             Month.Insert();
         end;
     end;
