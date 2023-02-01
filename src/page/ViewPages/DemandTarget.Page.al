@@ -51,10 +51,10 @@ page 50113 "BET PLAN Demand-Target"
         CurrentMonth: Integer;
         TotalDemand, TotalTarget : Decimal;
     begin
-        if CopyStr(Rec.Month, 1, 1) = '0' then
-            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 2, 1)))
+        if CopyStr(Rec.Month, 4, 1) = '0' then
+            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 5, 1)))
         else
-            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 1, 2)));
+            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 4, 2)));
         CurrentMonthAsDate := DMY2Date(1, CurrentMonth, Date2DMY(Today, 3));
         Demand.SetRange(Month, CurrentMonthAsDate, CalcDate('<CM>', CurrentMonthAsDate));
         if Demand.FindSet() then
