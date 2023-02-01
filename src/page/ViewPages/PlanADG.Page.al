@@ -127,7 +127,10 @@ page 50112 "BET PLAN Plan-ADG"
 
     trigger OnOpenPage()
     begin
-        LeftMostColumn := Date2DMY(Today, 2); //current month as left most column
+        if Date2DMY(Today, 2) <= 10 then
+            LeftMostColumn := Date2DMY(Today, 2)
+        else
+            LeftMostColumn := 10;
     end;
 
     var
