@@ -11,7 +11,7 @@ codeunit 50102 ModifyDates
         dates: array[200] of Text;
     begin
 
-        dates[1] := '2023-11-25'; // random dates in business central format
+        dates[1] := '2023-11-25';
         dates[2] := '2023-02-19';
         dates[3] := '2023-05-17';
         dates[4] := '2023-03-30';
@@ -217,10 +217,10 @@ codeunit 50102 ModifyDates
         j := 1;
         if Demand.FindSet() then
             repeat
-                Evaluate(Demand.Month, dates[i]); // set date to given date
+                Evaluate(Demand.Month, dates[i]);
                 Demand.Modify();
                 i += 1;
-            until Demand.Next() = 0; // for every entry until noone is next
+            until Demand.Next() = 0;
 
         if Plan.FindSet() then
             repeat

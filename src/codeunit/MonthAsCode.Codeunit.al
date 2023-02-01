@@ -10,12 +10,12 @@ codeunit 50101 "BET PLAN Month as Code"
         Year: Integer;
         MonthAsCode: Text;
     begin
-        Year := Date2DMY(Today, 3) - 2000; // 2 digit years
+        Year := Date2DMY(Today, 3) - 2000;
 
         if Month >= 10 then
-            MonthAsCode := Format(Year) + '-' + Format(Month) // YY-MM as new format
+            MonthAsCode := Format(Year) + '-' + Format(Month)
         else
-            MonthAsCode := Format(Year) + '-' + '0' + Format(Month); // leading 0 for 1-digit months
+            MonthAsCode := Format(Year) + '-' + '0' + Format(Month);
         exit(MonthAsCode);
     end;
 }

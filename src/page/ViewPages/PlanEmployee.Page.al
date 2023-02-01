@@ -19,7 +19,7 @@ page 50110 "BET PLAN Plan-Employee"
                     ToolTip = 'Specifies the value of the Employee Code field.';
                 }
 
-                field(Col1; GetDays(LeftMostColumn)) //dynmaische spalte als Monat übergeben damit der eintrag auch stimmt
+                field(Col1; GetDays(LeftMostColumn))
                 {
                     CaptionClass = '3,' + MonthAsCode.GetMonthAsCode(LeftMostColumn);
                     ApplicationArea = All;
@@ -118,7 +118,7 @@ page 50110 "BET PLAN Plan-Employee"
                 Image = NextRecord;
                 trigger OnAction()
                 begin
-                    if LeftMostColumn < 10 then //nur dann steht monat 12 ganz rechts, abhängig von anzahl der Felder der Page
+                    if LeftMostColumn < 10 then
                         LeftMostColumn += 1;
                 end;
             }
@@ -143,15 +143,15 @@ page 50110 "BET PLAN Plan-Employee"
         GivenMonthAsDate: Date;
         SumOfDemands: Decimal;
     begin
-        Plan.SetRange("Employee Code", Rec."Employee Code"); // filter for current project in Demand tbale, wird am bei seitenaufruf für alle Einträge durchlaufen
-        GivenMonthAsDate := DMY2Date(1, month, Date2DMY(Today, 3)); // neues Datum erstellen für gegeben Monat aus Spalte, 01.Monat.aktuelles Jahr
-        Plan.SetRange(Month, GivenMonthAsDate, CalcDate('<CM>', GivenMonthAsDate)); //filter nach Monat in Demand table //calcdate <CM> gibt letzten tag des monats aus
+        Plan.SetRange("Employee Code", Rec."Employee Code");
+        GivenMonthAsDate := DMY2Date(1, month, Date2DMY(Today, 3));
+        Plan.SetRange(Month, GivenMonthAsDate, CalcDate('<CM>', GivenMonthAsDate));
 
         if Plan.FindSet() then
             repeat
-                SumOfDemands += Plan.Days; //alle demands addieren für aktuellen filter
+                SumOfDemands += Plan.Days;
             until Plan.Next() = 0;
-        exit(SumOfDemands);//demand summe ausgeben
+        exit(SumOfDemands);
     end;
 
     local procedure GetTotal(): Decimal
@@ -166,8 +166,8 @@ page 50110 "BET PLAN Plan-Employee"
 
         if Plan.FindSet() then
             repeat
-                SumOfDemands += Plan.Days; //alle demands addieren für aktuellen filter
+                SumOfDemands += Plan.Days;
             until Plan.Next() = 0;
-        exit(SumOfDemands);//demand summe ausgeben
+        exit(SumOfDemands);
     end;
 }

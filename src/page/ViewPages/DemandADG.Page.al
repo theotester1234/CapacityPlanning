@@ -2,7 +2,7 @@ page 50105 "BET PLAN Demand-ADG"
 {
     Caption = 'Demand-ADG';
     PageType = List;
-    SourceTable = "BET PLAN ADG"; // somit ist die anzahl der erstellten zeilen gleich der der existierenden projekte
+    SourceTable = "BET PLAN ADG";
     Editable = false;
     UsageCategory = Lists;
     ApplicationArea = All;
@@ -19,7 +19,7 @@ page 50105 "BET PLAN Demand-ADG"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the Project No.';
                 }
-                field(Col1; GetDemand(LeftMostColumn)) //dynmaische spalte als Monat übergeben damit der eintrag auch stimmt
+                field(Col1; GetDemand(LeftMostColumn))
                 {
                     CaptionClass = '3,' + MonthAsCode.GetMonthAsCode(LeftMostColumn);
                     ApplicationArea = All;
@@ -85,7 +85,7 @@ page 50105 "BET PLAN Demand-ADG"
                 Image = NextRecord;
                 trigger OnAction()
                 begin
-                    if LeftMostColumn < 10 then //nur dann steht monat 12 ganz rechts, abhängig von anzahl der Felder der Page
+                    if LeftMostColumn < 10 then
                         LeftMostColumn += 1;
                 end;
             }
@@ -110,15 +110,15 @@ page 50105 "BET PLAN Demand-ADG"
         GivenMonthAsDate: Date;
         SumOfDemands: Decimal;
     begin
-        Demand.SetRange(ADG, Rec.ADG); // filter for current project in Demand tbale, wird am bei seitenaufruf für alle Einträge durchlaufen
-        GivenMonthAsDate := DMY2Date(1, Month, Date2DMY(Today, 3)); // neues Datum erstellen für gegeben Monat aus Spalte, 01.Monat.aktuelles Jahr
-        Demand.SetRange(Month, GivenMonthAsDate, CalcDate('<CM>', GivenMonthAsDate)); //filter nach Monat in Demand table //calcdate <CM> gibt letzten tag des monats aus
+        Demand.SetRange(ADG, Rec.ADG);
+        GivenMonthAsDate := DMY2Date(1, Month, Date2DMY(Today, 3));
+        Demand.SetRange(Month, GivenMonthAsDate, CalcDate('<CM>', GivenMonthAsDate));
 
         if Demand.FindSet() then
             repeat
-                SumOfDemands += Demand.Total; //alle demands addieren für aktuellen filter
+                SumOfDemands += Demand.Total;
             until Demand.Next() = 0;
-        exit(SumOfDemands);//demand summe ausgeben
+        exit(SumOfDemands);
     end;
 
     local procedure GetTotal(): Decimal
@@ -133,8 +133,8 @@ page 50105 "BET PLAN Demand-ADG"
 
         if Demand.FindSet() then
             repeat
-                SumOfDemands += Demand.Total; //alle demands addieren für aktuellen filter
+                SumOfDemands += Demand.Total;
             until Demand.Next() = 0;
-        exit(SumOfDemands);//demand summe ausgeben
+        exit(SumOfDemands);
     end;
 }

@@ -19,7 +19,7 @@ page 50114 "BET PLAN Remaining Demand"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the ADG field.';
                 }
-                field(Col1; GetRemainingDemand(LeftMostColumn)) //dynmaische spalte als Monat übergeben damit der eintrag auch stimmt
+                field(Col1; GetRemainingDemand(LeftMostColumn))
                 {
                     CaptionClass = '3,' + MonthAsCode.GetMonthAsCode(LeftMostColumn);
                     ApplicationArea = All;
@@ -84,7 +84,7 @@ page 50114 "BET PLAN Remaining Demand"
                 Image = NextRecord;
                 trigger OnAction()
                 begin
-                    if LeftMostColumn < 10 then //nur dann steht monat 12 ganz rechts, abhängig von anzahl der Felder der Page
+                    if LeftMostColumn < 10 then
                         LeftMostColumn += 1;
                 end;
             }

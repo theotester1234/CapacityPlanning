@@ -106,9 +106,9 @@ page 50106 "BET PLAN Demand-ADG FactBox"
 
         if Demand.FindSet() then
             repeat
-                SumOfDemands += Demand.Total; //alle demands addieren für aktuellen filter
+                SumOfDemands += Demand.Total;
             until Demand.Next() = 0;
-        exit(SumOfDemands);//demand summe ausgeben
+        exit(SumOfDemands);
     end;
 
     local procedure GetTotalTotal(): Decimal
@@ -122,8 +122,8 @@ page 50106 "BET PLAN Demand-ADG FactBox"
 
         if Demand.FindSet() then
             repeat
-                SumOfDemands += Demand.Total; //alle demands addieren für aktuellen filter
+                SumOfDemands += Demand.Total;
             until Demand.Next() = 0;
-        exit(SumOfDemands);//demand summe ausgeben
+        exit(SumOfDemands);
     end;
 }

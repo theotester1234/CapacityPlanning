@@ -2,7 +2,7 @@ page 50107 "BET PLAN Demand-Area"
 {
     Caption = 'Demand-Area';
     PageType = List;
-    SourceTable = "BET PLAN Month"; // somit ist die anzahl der erstellten zeilen gleich der der existierenden projekte
+    SourceTable = "BET PLAN Month";
     Editable = false;
     PromotedActionCategories = 'New,Process,Report,Views,Create own Filter';
     UsageCategory = Lists;
@@ -69,7 +69,7 @@ page 50107 "BET PLAN Demand-Area"
                     ToolTip = 'Specifies the Total of ProServ.';
                     Visible = IsVisibleProServ;
                 }
-                field("Total"; GetDemand(Areas::Total)) //TODO based on current visible columns
+                field("Total"; GetDemand(Areas::Total))
                 {
                     Caption = 'Total';
                     ApplicationArea = All;
@@ -312,8 +312,8 @@ page 50107 "BET PLAN Demand-Area"
             Evaluate(CurrentMonth, (CopyStr(Rec.Month, 4, 1)))
         else
             Evaluate(CurrentMonth, (CopyStr(Rec.Month, 4, 2)));
-        StartCurrentMonth := DMY2Date(1, CurrentMonth, Date2DMY(Today, 3)); // neues Datum erstellen für gegeben Monat aus Spalte, 01.Monat.aktuelles Jahr
-        Demand.SetRange(Month, StartCurrentMonth, CalcDate('<CM>', StartCurrentMonth)); //filter nach Monat in Demand table //calcdate <CM> gibt letzten tag des monats aus 
+        StartCurrentMonth := DMY2Date(1, CurrentMonth, Date2DMY(Today, 3));
+        Demand.SetRange(Month, StartCurrentMonth, CalcDate('<CM>', StartCurrentMonth));
 
         if Demand.FindSet() then
             repeat

@@ -18,7 +18,7 @@ page 50118 "BET PLAN Remaining Capacity"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Employee Code field.';
                 }
-                field(Col1; GetRemainingCapacity(LeftMostColumn)) //dynmaische spalte als Monat übergeben damit der eintrag auch stimmt
+                field(Col1; GetRemainingCapacity(LeftMostColumn))
                 {
                     CaptionClass = '3,' + MonthAsCode.GetMonthAsCode(LeftMostColumn);
                     ApplicationArea = All;
@@ -83,7 +83,7 @@ page 50118 "BET PLAN Remaining Capacity"
                 Image = NextRecord;
                 trigger OnAction()
                 begin
-                    if LeftMostColumn < 10 then //nur dann steht monat 12 ganz rechts, abhängig von anzahl der Felder der Page
+                    if LeftMostColumn < 10 then
                         LeftMostColumn += 1;
                 end;
             }

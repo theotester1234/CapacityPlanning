@@ -10,9 +10,9 @@ codeunit 50100 "BET PLAN Init Months"
         StartMonth: Integer;
         i: Integer;
     begin
-        Month.DeleteAll();  // Delete current records
-        StartMonth := Date2DMY(Today, 2); // get the current month as Integer
-        for i := StartMonth to 12 do begin // for remaining months of the current year
+        Month.DeleteAll();
+        StartMonth := Date2DMY(Today, 2);
+        for i := StartMonth to 12 do begin
             Month.Init();
             Month.Month := MonthAsCode.GetMonthAsCode(i);
             Month.Insert();
