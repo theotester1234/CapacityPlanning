@@ -1,6 +1,6 @@
 page 50108 "BET PLAN Demand-Area FactBox"
 {
-    Caption = 'Demand Area FactBox';
+    Caption = 'Demand-Area FactBox';
     PageType = CardPart;
     SourceTable = "BET PLAN Demand";
     Editable = false;

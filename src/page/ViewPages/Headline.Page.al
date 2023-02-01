@@ -1,6 +1,6 @@
 page 50121 "BET PLAN Headline"
 {
-    Caption = 'BET PLAN Headline';
+    Caption = 'Headline';
     PageType = HeadlinePart;
     RefreshOnActivate = true;
     SourceTable = "BET PLAN Plan";

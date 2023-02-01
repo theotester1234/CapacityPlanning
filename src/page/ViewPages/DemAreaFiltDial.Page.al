@@ -1,6 +1,6 @@
 page 50109 "BET PLAN Dem.-Area Filt. Dial."
 {
-    Caption = 'Demand Area Filter Dialog';
+    Caption = 'Demand-Area Filter Dialog';
     PageType = StandardDialog;
 
     layout
