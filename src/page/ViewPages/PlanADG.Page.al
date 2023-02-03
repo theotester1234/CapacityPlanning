@@ -25,18 +25,8 @@ page 50112 "BET PLAN Plan-ADG"
                     ApplicationArea = All;
                     ToolTip = ' ';
                     trigger OnDrillDown()
-                    var
-                        Plan: Record "BET PLAN Plan";
-                        PlanEmployeeADG: Page "BET PLAN Plan-Employee-ADG";
-                        CurrentMonth: Date;
                     begin
-                        PlanEmployeeADG.Editable(false);
-                        PlanEmployeeADG.GetRecord(Plan);
-                        Plan.SetRange(ADG, Rec.ADG);
-                        CurrentMonth := DMY2Date(1, LeftMostColumn, Date2DMY(Today, 3));
-                        Plan.SetRange(Month, CurrentMonth, CalcDate('<CM>', CurrentMonth));
-                        PlanEmployeeADG.SetTableView(Plan);
-                        PlanEmployeeADG.RunModal();
+                        OpenPlanEmployeeADG(LeftMostColumn)
                     end;
                 }
                 field(Col2; GetDays(LeftMostColumn + 1))
@@ -45,18 +35,8 @@ page 50112 "BET PLAN Plan-ADG"
                     ApplicationArea = All;
                     ToolTip = ' ';
                     trigger OnDrillDown()
-                    var
-                        Plan: Record "BET PLAN Plan";
-                        PlanEmployeeADG: Page "BET PLAN Plan-Employee-ADG";
-                        CurrentMonth: Date;
                     begin
-                        PlanEmployeeADG.Editable(false);
-                        PlanEmployeeADG.GetRecord(Plan);
-                        Plan.SetRange(ADG, Rec.ADG);
-                        CurrentMonth := DMY2Date(1, LeftMostColumn + 1, Date2DMY(Today, 3));
-                        Plan.SetRange(Month, CurrentMonth, CalcDate('<CM>', CurrentMonth));
-                        PlanEmployeeADG.SetTableView(Plan);
-                        PlanEmployeeADG.RunModal();
+                        OpenPlanEmployeeADG(LeftMostColumn + 1);
                     end;
                 }
                 field(Col3; GetDays(LeftMostColumn + 2))
@@ -65,18 +45,8 @@ page 50112 "BET PLAN Plan-ADG"
                     ApplicationArea = All;
                     ToolTip = ' ';
                     trigger OnDrillDown()
-                    var
-                        Plan: Record "BET PLAN Plan";
-                        PlanEmployeeADG: Page "BET PLAN Plan-Employee-ADG";
-                        CurrentMonth: Date;
                     begin
-                        PlanEmployeeADG.Editable(false);
-                        PlanEmployeeADG.GetRecord(Plan);
-                        Plan.SetRange(ADG, Rec.ADG);
-                        CurrentMonth := DMY2Date(1, LeftMostColumn + 2, Date2DMY(Today, 3));
-                        Plan.SetRange(Month, CurrentMonth, CalcDate('<CM>', CurrentMonth));
-                        PlanEmployeeADG.SetTableView(Plan);
-                        PlanEmployeeADG.RunModal();
+                        OpenPlanEmployeeADG(LeftMostColumn + 2);
                     end;
                 }
                 field("Grand Total"; GetTotal())
@@ -136,6 +106,21 @@ page 50112 "BET PLAN Plan-ADG"
     var
         MonthAsCode: Codeunit "BET PLAN Month as Code";
         LeftMostColumn: Integer;
+
+    local procedure OpenPlanEmployeeADG(Month: Integer)
+    var
+        Plan: Record "BET PLAN Plan";
+        PlanEmployeeADG: Page "BET PLAN Plan-Employee-ADG";
+        CurrentMonth: Date;
+    begin
+        CurrentMonth := DMY2Date(1, LeftMostColumn, Date2DMY(Today, 3));
+        PlanEmployeeADG.Editable(false);
+        PlanEmployeeADG.GetRecord(Plan);
+        Plan.SetRange(ADG, Rec.ADG);
+        Plan.SetRange(Month, CurrentMonth, CalcDate('<CM>', CurrentMonth));
+        PlanEmployeeADG.SetTableView(Plan);
+        PlanEmployeeADG.RunModal();
+    end;
 
     local procedure GetDays(Month: Integer): Decimal
     var
