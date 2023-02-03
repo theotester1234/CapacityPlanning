@@ -308,10 +308,7 @@ page 50107 "BET PLAN Demand-Area"
         CurrentMonth: Integer;
         SumOfDemands: Decimal;
     begin
-        if CopyStr(Rec.Month, 1, 1) = '0' then
-            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 4, 1)))
-        else
-            Evaluate(CurrentMonth, (CopyStr(Rec.Month, 4, 2)));
+        Evaluate(CurrentMonth, (CopyStr(Rec.Month, 4, 2)));
         StartCurrentMonth := DMY2Date(1, CurrentMonth, Date2DMY(Today, 3));
         Demand.SetRange(Month, StartCurrentMonth, CalcDate('<CM>', StartCurrentMonth));
 
