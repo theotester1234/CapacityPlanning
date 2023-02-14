@@ -1,4 +1,4 @@
-#  Capacity Planning - Business Central
+#  Capacity Planning - Business Central ssss
 
 This is the Business Central app about the Capacity Planning authored by Theo Heußner.
 
